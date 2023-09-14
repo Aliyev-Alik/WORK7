@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
@@ -32,7 +33,6 @@
                         <p>Proven strategies backed by science for success.</p>
                         <h1>About me</h1>
                         <p>I help people to discover their true potential and live a fulfilling life... Discover the simple 3 steps that I discovered to hack productivity. It just works and it is begin using backed by science. Wanna transform your life?</p>
-
                         <a href="#" class="freeguide">Get your free guide now</a>
                     </div>
                     <div class="right">
@@ -46,14 +46,18 @@
             </section>
         </main>
 
-        <main-2>
-            <div class="logo">
+        <section id="section 2">
+            <div class="logo2">
                 <p>From startups to the world’s largest companies</p>
-                <img src="Company logo.jpg" alt="">
-                <img src="Company logo2.jpg" alt="">
-                <img src="Company logo3.jpg" alt="">
-                <img src="Company logo4.jpg" alt="">
-                <img src="Company logo5.jpg" alt="">
+                <div class="iconelar">
+                    <img src="./img/Company logo11.jpg" alt="">
+                    <img src="./img/Company logo2.jpg" alt="">
+                    <img src="/img/Company logo3.jpg" alt="">
+                    <img src="img/Company logo4.jpg" alt="">
+                    <img src="img/Company logo5.jpg" alt="">
+                </div>
+
+
             </div>
             <div class="div">
                 <h2>Hear out what my clients say about me.</h2>
@@ -122,24 +126,34 @@
                     <h2>Good to know.</h2>
                     <p>Everything you need to know about the my services.</p>
                 </div>
-                <div class="nomer">
-                    <div class="bir">
-                        <h3>How long does the coaching process take?</h3>
-                        <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p>
-                    </div>
-                    <hr>
-                    <div class="iki">
-                        <h3>How long does the coaching process take?</h3>
-                    </div>
-                    <hr>
-                    <div class="uc">
-                        <h3>How long does the coaching process take?</h3>
-                    </div>
-                    <hr>
-                    <div class="dort">
-                        <h3>How long does the coaching process take?</h3>
-                    </div>
+
+
+                <div class="accordions">
+                    <section class="holder">
+                        <div class="item">
+                            <h3 class="accordion">How long does the coaching process take?</h3>
+                            <div class="accordion-content">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quae dolore labore.</p>
+                                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="accordion">How long does the coaching process take?</h3>
+                            <div class="accordion-content">
+                                <p>Ponsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="accordion">How long does the coaching process take?</h3>
+                            <div class="accordion-content">
+                                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="park">
                     <h2>Still have questions?</h2>
                     <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
@@ -149,8 +163,51 @@
 
 
             </div>
+            <div class="end">
+                <div class="poragraph ">
+                    <h2>Get notified when I publish new articles</h2>
+                    <p>Stay up to date with the latest news, announcements, and articles.</p>
+                </div>
+                <input type="email" placeholder="Enter your Email">
+                <label for="Subscribe">Subscribe</label>
 
-        </main-2>
+            </div>
+
+        </section>
+        <footer>
+            <div class="notified">
+                <div class="good">
+                    <div class="piphagor">
+                        <img src="img/Logo.png" alt="">
+                        <p> Design amazing digital experiences that create more happy in the world.</p>
+                    </div>
+                    <div>
+                        <h3>Pages</h3>
+                        <p>Home</p>
+                        <p>Services</p>
+                        <p>About us</p>
+                        <p>Extra Sales/Landingpage</p>
+                        <p>Free guide</p>
+                    </div>
+                    <div>
+                        <h3>Contact</h3>
+                        <p>+123 456 789</p>
+                        <p>hello@happydigital.nl</p>
+                        <p>Instagram</p>
+                        <p>LinkedIn</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer">
+                    <img src="img/Made by.png" alt=""><img src="img/Social icons.png" alt="">
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
 
 
 
@@ -158,6 +215,10 @@
 
 
     </div>
+
+
+    <script src="./accordion.js"></script>
+
 </body>
 
 </html>
